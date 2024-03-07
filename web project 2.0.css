@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Kode Mono", monospace;
+    background-color: #f0fffd ;
+    color: #00331a;
+}
+
+.header {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+    align-items: center;
+}
+.header .logo { 
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #00331a;
+    font-weight: 600;
+
+}
+
+.header .logo:hover {
+    color: #0c6;
+    transform: scale(1.1);
+    transition: ease-in-out .4s;
+}
+
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    
+
+}
+.header a {
+    text-decoration: none;
+    color: #00331a;
+    
+}
+
+.header a:hover {
+    color: #0c6;
+    transition: ease-in-out .4s;
+}
+
+
+.section-intro {
+    margin-top: -1.7rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    height: 90vh;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.section-intro .intro_image {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+      
+}
+
+.section-intro .intro_content {
+    margin: 0 auto;
+    margin-left: 0%;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.section-intro .intro_image_pict {
+   margin: 0 auto;
+   margin-left: 100px;
+}
+
+.section-intro .intro_image {
+    margin: 0 auto;  
+}
+
+.section-intro .intro_content_H4 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.section-intro .intro_content_H1 {
+    font-size: 2.7rem ;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,.1);
+    line-height: 120% ;
+}
+
+.section-intro .h1_design {
+    font-weight: 700;
+    color: #0c6;
+}
+
+.section-intro .intro_icons {
+    font-size: 3rem;
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding-top: 75px;
+    
+}
+
+
+.section-intro .icons_project {
+    border-radius: 10px;
+    padding: 0 5px;
+    background: #00331a;
+    box-shadow: 0 8px 32px 0 rgba(70, 139, 70, 0.37);
+    backdrop-filter: blur( 50px );
+    -webkit-backdrop-filter: blur( 50px );
+    border: none;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: white;
+    
+}
+.section-intro .fa-brands:hover {
+    color: #0c6;
+    transform: scale(1.1) ;
+    transition: ease-in-out .4s;
+    
+}
+
+.icons_project:hover {
+    background-color: #0c6;
+    transform: scale(1.1) ;
+    transition: ease-in-out .4s;
+}
